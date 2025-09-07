@@ -1,0 +1,142 @@
+# -----------------------------
+# OS-specific
+# -----------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# macOS (in case collaborators use macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Type checker and formatter caches
+.dmypy.json
+.mypy_cache/
+ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Notebooks output checkpoints (optional)
+# If you’d like to keep large embedded outputs out of VCS, consider using nbdime or clearing outputs before commit.
+
+# -----------------------------
+# Data & artifacts
+# -----------------------------
+# Ignore typical data files by default. Whitelist the ones you want to commit.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.jsonl
+*.json
+*.pickle
+*.pkl
+*.sav
+*.dta
+*.sqlite
+*.db
+*.zip
+*.gz
+*.bz2
+*.7z
+*.tar
+
+# If you need to track a specific dataset, unignore it below, e.g.:
+# !laptop_price.csv
+# Or keep tracked data under a dedicated small-data folder:
+# data/
+# !data/README.md
+# !data/samples/**
+
+# Logs
+*.log
+logs/
+
+# Outputs & reports
+outputs/
+reports/
+artifacts/
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+# PyCharm / IntelliJ
+.idea/
+# VS Code (if used)
+.vscode/
+
+# JetBrains caches
+.jb/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+
+# Local environment config
+.env
+.env.*
+*.env
+
+# IPyKernel connection files (transient)
+kernel-*.json
+
+# Plotly/Matplotlib cache (optional)
+.matplotlib/
+
+# Jupyter lab/stage (if present)
+.jupyter
